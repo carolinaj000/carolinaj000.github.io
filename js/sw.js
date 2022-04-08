@@ -4,8 +4,6 @@ self.addEventListener('install', function(event){
 			caches.open('cache01').then(function(cache){
 			return cache.addAll([
 				'/index.html',
-				'/catalogo.html',
-				'/ccs/estilos.css',
 				'/ccs/estilo2.css',
 				'/img/delete.png',
 				'/img/edit.png',
